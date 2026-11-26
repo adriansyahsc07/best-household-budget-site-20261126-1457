@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HematRumah — Anggaran Rumah Tangga</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="kepala">
+  <div class="kepala-dalam">
+    <div class="merek">
+      <span class="merek-logo" aria-hidden="true">HR</span>
+      <div>
+        <p class="merek-nama">HematRumah</p>
+        <p class="merek-slogan">Anggaran rumah tangga, terang dan terkendali</p>
+      </div>
+    </div>
+    <label class="pemilih-bulan">Bulan
+      <select id="pilih-bulan" aria-label="Pilih bulan"></select>
+    </label>
+  </div>
+  <nav class="navigasi" aria-label="Navigasi utama">
+    <a href="#/ringkasan" data-rute="ringkasan">Ringkasan</a>
+    <a href="#/anggaran" data-rute="anggaran">Anggaran</a>
+    <a href="#/transaksi" data-rute="transaksi">Transaksi</a>
+    <a href="#/tagihan" data-rute="tagihan">Tagihan</a>
+    <a href="#/tujuan" data-rute="tujuan">Tujuan</a>
+    <a href="#/panduan" data-rute="panduan">Panduan</a>
+  </nav>
+</header>
+
+<main id="konten" class="konten"></main>
+
+<footer class="kaki">
+  <p>HematRumah — catatan keuangan Keluarga Prasetyo, Makassar. Semua angka contoh keluarga kami sendiri, tersimpan di berkas situs ini dan bekerja tanpa jaringan.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="views.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
